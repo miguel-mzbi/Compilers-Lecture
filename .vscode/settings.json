@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.postgres": "postgres",
+        "stdlib.h": "c"
+    }
+}
