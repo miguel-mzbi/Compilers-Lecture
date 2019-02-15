@@ -92,6 +92,7 @@ int main(int argc, char const *argv[]) {
         }
     }
     fprintf(outFile, "$");
+    
     fclose(file);
     fclose(outFile);
 
