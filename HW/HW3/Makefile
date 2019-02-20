@@ -2,7 +2,7 @@ all:
 	gcc lex.c -o lex
 
 clean:
-	rm -rf lex lex.out example.ac random_code.ac
+	rm -rf lex lex.out example.ac random_code.ac a.out
 
 test:
 	gcc lex.c -o lex
