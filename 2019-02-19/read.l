@@ -3,8 +3,7 @@
 %}
 
 %%
-[0123456789]+           printf("NUMBER\n");
-[a-zA-Z][a-zA-Z0-9]*    printf("WORD\n");
+^.*(mounted\ filesystem).*$      printf("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOT\n");
 %%
 
 int main(int argc, char **argv) {
