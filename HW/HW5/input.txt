@@ -1,0 +1,4 @@
+S → a B | b X
+A → B a d | b S X | a
+B → a S B | b B X
+X → S B D | a B x | a d

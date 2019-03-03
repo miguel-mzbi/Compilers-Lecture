@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.postgres": "postgres",
-        "stdlib.h": "c"
-    },
-    "python.linting.pylintEnabled": true
-}
