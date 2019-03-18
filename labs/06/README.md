@@ -64,7 +64,7 @@ recognizer for the calculator: i.e:
 cat my_gramar.txt
 
 <name-part> ::= <personal-part> <last-name> <opt-suffix-part> <EOL>
-			| <personal-part> <name-part>
+        | <personal-part> <name-part>
 ```
 
 

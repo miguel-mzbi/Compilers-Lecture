@@ -1,0 +1,6 @@
+S → print id | D | A
+D → floatdcl id | intdcl id
+A → id assign N B
+B → O N | λ
+N → id | fnum | inum
+O → plus | minus | div | mult

@@ -60,3 +60,4 @@ log
 !.vscode/extensions.json
 
 *.ac
+lex.yy.c
