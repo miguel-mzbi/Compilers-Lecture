@@ -57,17 +57,7 @@ Reuse your code from lab 05 to:
 Once we know that the Grammer propoused for the calculator has none of these
 errors, please create a code in C for the  Recursive Decent Parsing algorithm, follow example from:
 
-<<<<<<< HEAD
-
-```
-cat my_gramar.txt
-
-<name-part> ::= <personal-part> <last-name> <opt-suffix-part> <EOL>
-        | <personal-part> <name-part>
-```
-=======
 [ Recursive Decent Parsing](https://www.youtube.com/watch?v=nv9J5Jb7IxM)
->>>>>>> 470054f72ec799d6cff1a540004fef04a7eeb533
 
 
 ## How could it be tested:
