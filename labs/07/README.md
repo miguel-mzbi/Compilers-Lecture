@@ -1,14 +1,15 @@
-# Lab 06 instructions
+# Lab 07 instructions
 
 ## Objective
 
-Make the student create a CFG for the calculator previusly created
+Make the student create a CFG for the calculator previusly created using YACC
 
 # Requirements
 
 * Linux machine, either a VM or a bare metal host
 * GCC compiler
 * git send mail server installed and configured on your Linux machine
+* YACC
 
 ## Instructions
 Taking as imput the following code:
@@ -47,28 +48,12 @@ print id
 IMPORTANT: calculator should accept + - * / as operator
 
 
-Reuse your code from lab 05 to:
+Before we reuse our code from lab 05 to:
 
 	* Detect nonterminals that cannot be reached from a CFG’s goal symbol.
 	* Detect nonterminals that cannot derive any terminal string in a CFG.
 
-(reuse the same code , no need to re write in C, just call as a process)
-
-Once we know that the Grammer propoused for the calculator has none of these
-errors, please create a code in C for the  Recursive Decent Parsing algorithm, follow example from:
-
-<<<<<<< HEAD
-
-```
-cat my_gramar.txt
-
-<name-part> ::= <personal-part> <last-name> <opt-suffix-part> <EOL>
-        | <personal-part> <name-part>
-```
-=======
-[ Recursive Decent Parsing](https://www.youtube.com/watch?v=nv9J5Jb7IxM)
->>>>>>> 470054f72ec799d6cff1a540004fef04a7eeb533
-
+Since we already did this in HW 06 is not necessary to do it again
 
 ## How could it be tested:
 ```
@@ -83,7 +68,7 @@ This will generate the tokens.out
 Use then for generate the parse tree:
 
 ```
-./syntax-calc tokens.out 
+./syntax-calc tokens.out
 ```
 And generate a CFG derivation tree in this format:
 
@@ -94,6 +79,13 @@ digraph D {
 
 }
 
+
+IMPORTANT: Use this code as base
+
+https://avinashsuryawanshi.files.wordpress.com/2016/10/9.pdf
+
+It will give you a basic example of how to make the AST
+
 ```
 
 View of this tree, put this code in:
@@ -103,8 +95,6 @@ https://dreampuf.github.io/GraphvizOnline
 More info about DOT code:
 
 https://renenyffenegger.ch/notes/tools/Graphviz/examples/index
-
-
 
 ## Please send the mail as git send mail:
 
