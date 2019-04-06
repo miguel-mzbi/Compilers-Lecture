@@ -1,0 +1,11 @@
+compile:
+gcc -g main.c -o main // Compile with table to know the faulty lines in the debugger
+
+debug:
+gdb ./main
+
+inside gdb:
+file ./main // Use this if te file parameter wasn't provided
+run // Execute code in debugger (Useful to find segmentation faults, obligatory to run before doing a bt)
+bt // See backtrace (Useful to find error calls)
+quit

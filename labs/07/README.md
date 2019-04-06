@@ -2,7 +2,7 @@
 
 ## Objective
 
-Make the student create a CFG for the calculator previusly created using YACC
+Make the student create a CFG for the calculator previously created, using YACC
 
 # Requirements
 
@@ -12,7 +12,7 @@ Make the student create a CFG for the calculator previusly created using YACC
 * YACC
 
 ## Instructions
-Taking as imput the following code:
+Taking as input the following code:
 
 ```
 $ cat FILE
